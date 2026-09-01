@@ -11,11 +11,13 @@
 <br/>
 <!-- PROJECT SHIELDS -->
 <div align="center">
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
+[![Contributors](https://img.shields.io/github/contributors/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/network/members)
+[![Stargazers](https://img.shields.io/github/stars/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/stargazers)
+[![Issues](https://img.shields.io/github/issues/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/issues)
+[![MIT License](https://img.shields.io/github/license/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/blob/main/LICENSE)
+
 </div>
 <!-- PROJECT LOGO -->
 <br/>
@@ -31,7 +33,7 @@
 </div>
 
 <!-- STACK -->
-## 🛠️ Stack
+## 🛠️ Ferramentas
 
 - **Node.js + Express** — servidor e rotas da API
 - **Supabase** — banco de dados (PostgreSQL) + autenticação
@@ -90,3 +92,6 @@ PetSafe-back/
 └── README.md
 ```
 
+Depois, abra um Pull Request de `feature/nome-da-feature` para `develop`.
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
