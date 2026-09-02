@@ -9,6 +9,7 @@
   </p>
 </div>
 <br/>
+
 <!-- PROJECT SHIELDS -->
 <div align="center">
 
@@ -31,59 +32,57 @@
     <br/>
   </p>
 </div>
-
 <!-- STACK -->
-## 🛠️ Ferramentas
-
+## 🛠️ Stack
+ 
 - **Node.js + Express** — servidor e rotas da API
 - **Supabase** — banco de dados (PostgreSQL) + autenticação
 - Arquitetura em padrão **MVC** (Model / View / Controller)
-
 <!-- GETTING STARTED -->
 ## 🚀 Como Começar
-
+ 
 Siga os passos abaixo para rodar a API localmente.
-
+ 
 ### Pré-requisitos
-
+ 
 - Node.js (LTS) e npm instalados
-  ```sh
+```sh
   npm install npm@latest -g
-  ```
+```
 - Acesso ao projeto Supabase do time (URL + chave da API)
-
 ### Instalação
-
+ 
 1. Clone o repositório
-   ```sh
+```sh
    git clone https://github.com/ricardolopestomaz/PetSafe-back.git
    cd PetSafe-back
-   ```
+```
 2. Instale as dependências
-   ```sh
+```sh
    npm install
-   ```
+```
 3. Crie o arquivo `.env` na raiz do projeto com as credenciais do Supabase:
-   ```
+```
    SUPABASE_URL=https://seu-projeto.supabase.co
    SUPABASE_KEY=sua-chave-aqui
-   ```
+```
    > Peça a URL e a chave para quem já tem acesso ao projeto Supabase do time. Esse arquivo **nunca** deve ser commitado (já está no `.gitignore`).
 4. Inicie o servidor
-   ```sh
+```sh
    node index.js
-   ```
+```
 5. A API estará rodando em: `http://localhost:3000`
-
 <!-- ESTRUTURA -->
 ## 📁 Estrutura de Pastas
-
+ 
 ```
 PetSafe-back/
 ├── app/
-│   ├── controller/     → lógica das rotas (recebe requisição, chama o banco, devolve resposta)
-│   ├── model/           → conexão com o banco e regras/validação dos dados
-│   └── view/            → formatação da resposta antes de devolver ao cliente
+│   ├── controller/     → recebe a requisição, chama o service e devolve a resposta
+│   ├── model/           → conexão com o banco de dados
+│   ├── routes/          → define as rotas e liga com os controllers
+│   └── services/        → lógica de negócio + consultas ao Supabase
+├── database/            → scripts SQL do banco de dados
 ├── node_modules/        → dependências (não versionado)
 ├── .env                 → credenciais do Supabase (não versionado)
 ├── .gitignore
@@ -91,7 +90,10 @@ PetSafe-back/
 ├── package.json
 └── README.md
 ```
-
-Depois, abra um Pull Request de `feature/nome-da-feature` para `develop`.
-
+<!-- CONTRIBUTORS -->
+### Top contributors:
+ 
+<a href="https://github.com/ricardolopestomaz/PetSafe-back/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ricardolopestomaz/PetSafe-back" alt="contrib.rocks image" />
+</a>
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
