@@ -10,17 +10,16 @@
 </div>
 <br/>
 
-<!-- PROJECT SHIELDS -->
 <div align="center">
 
-[![Contributors](https://img.shields.io/github/contributors/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/network/members)
-[![Stargazers](https://img.shields.io/github/stars/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/stargazers)
-[![Issues](https://img.shields.io/github/issues/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/issues)
-[![MIT License](https://img.shields.io/github/license/ricardolopestomaz/PetSafe-back.svg?style=flat)](https://github.com/ricardolopestomaz/PetSafe-back/blob/main/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/ricardolopestomaz/PetSafe-front.svg?style=for-the-badge)](https://github.com/ricardolopestomaz/PetSafe-front/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/ricardolopestomaz/PetSafe-front.svg?style=for-the-badge)](https://github.com/ricardolopestomaz/PetSafe-front/network/members)
+[![Stargazers](https://img.shields.io/github/stars/ricardolopestomaz/PetSafe-front.svg?style=for-the-badge)](https://github.com/ricardolopestomaz/PetSafe-front/stargazers)
+[![Issues](https://img.shields.io/github/issues/ricardolopestomaz/PetSafe-front.svg?style=for-the-badge)](https://github.com/ricardolopestomaz/PetSafe-front/issues)
+[![MIT License](https://img.shields.io/github/license/ricardolopestomaz/PetSafe-front.svg?style=for-the-badge)](https://github.com/ricardolopestomaz/PetSafe-front/blob/main/LICENSE)
 
 </div>
-<!-- PROJECT LOGO -->
+
 <br/>
 <div align="center">
   <h2 align="center">🐾 PetSafe — Backend</h2>
@@ -32,15 +31,18 @@
     <br/>
   </p>
 </div>
-<!-- STACK -->
-## 🛠️ Stack
- 
-- **Node.js + Express** — servidor e rotas da API
-- **Supabase** — banco de dados (PostgreSQL) + autenticação
-- Arquitetura em padrão **MVC** (Model / View / Controller)
-<!-- GETTING STARTED -->
+
+## 🛠️ Construído com
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white">
+</p>
+
 ## 🚀 Como Começar
- 
 Siga os passos abaixo para rodar a API localmente.
  
 ### Pré-requisitos
@@ -50,6 +52,7 @@ Siga os passos abaixo para rodar a API localmente.
   npm install npm@latest -g
 ```
 - Acesso ao projeto Supabase do time (URL + chave da API)
+  
 ### Instalação
  
 1. Clone o repositório
@@ -72,9 +75,10 @@ Siga os passos abaixo para rodar a API localmente.
    node index.js
 ```
 5. A API estará rodando em: `http://localhost:3000`
-<!-- ESTRUTURA -->
+
+
+
 ## 📁 Estrutura de Pastas
- 
 ```
 PetSafe-back/
 ├── app/
@@ -90,9 +94,9 @@ PetSafe-back/
 ├── package.json
 └── README.md
 ```
-<!-- CONTRIBUTORS -->
+
 ### Top contributors:
- 
+
 <a href="https://github.com/ricardolopestomaz/PetSafe-back/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ricardolopestomaz/PetSafe-back" alt="contrib.rocks image" />
 </a>
