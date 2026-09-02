@@ -8,5 +8,9 @@ app.use(express.json());
 
 
 
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok' });
+});
+
 const PORT = 3000;
 app.listen(PORT, () => console.log(`API rodando na porta ${PORT}`));
